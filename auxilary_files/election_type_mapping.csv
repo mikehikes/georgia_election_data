@@ -1,0 +1,38 @@
+code_integer,code_string,plain_text_description,coding
+1,001,General Primary Election,primary
+2,002,General Primary Runoff,primary
+3,003,General Election,general
+4,004,General Election Runoff,general_runoff
+5,005,Special Election,other
+6,006,Special Election Runoff,other
+7,007,Municipal Election,other
+8,008,Recall,other
+9,009,Presidential Primary,primary
+10,010,Municipal Election Runoff,local
+11,011,Municipal Special Election,local
+12,012,Municipal Special Election Runoff,local
+13,013,Municipal General Primary,local
+14,014,Municipal General Primary Runoff,local
+15,015,Municipal Special Primary,local
+16,016,Municipal Special Primary Runoff,local
+17,017,Special Primary,other
+18,018,Special Primary Runoff,other
+19,019,Municipal Recall Election,local
+20,020,General Primary/Special Election,primary
+21,021,General Primary/Special Election Runoff,primary
+22,022,Special Primary/Nonpartisan Election,other
+23,023,Special Primary/Nonpartisan Election Runoff,other
+24,024,Nonpartisan Election,other
+25,025,Nonpartisan Election Runoff,other
+26,026,General Primary/Nonpartisan Election/Special Election,primary
+27,027,General Primary/Nonpartisan Election/Special Election Runoff,primary
+28,028,Presidential Primary/Special Election,primary
+29,029,General/Special Election,general
+30,030,Municipal Election/Municipal Special Election,local
+31,031,Municipal Election Runoff/Runoff,local
+32,032,Special Primary Election,other
+33,033,Muni Election/Special Election,local
+34,034,Muni Election/Special Election Runoff,local
+35,035,PPP/Special Election/Muni Special Election,local
+36,036,General Primary/Nonpartisan /Special /Muni Special Election,primary
+37,037,General Primary/Nonpartisan /special /Muni Special Election Runoff,primary
