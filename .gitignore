@@ -1,0 +1,4 @@
+processed_data/*
+voter_database/*
+*.pickle
+*ipynb_checkpoints*
