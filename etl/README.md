@@ -12,8 +12,9 @@ This data contains the following fields:
 1. Voter Registration Number
 2. Election Type
 3. Election Date
-4. Binary indicator if the submitted ballot was an absentee ballot
-5. Categorical indicator if the ballot was submitted for a primary election, and if so, the political party selected by the voter.
+4. County Number
+5. Binary indicator if the submitted ballot was an absentee ballot
+6. Categorical indicator if the ballot was submitted for a primary election, and if so, the political party selected by the voter.
   * None _(If the election was not a primary or primary run-off)_
   * Democrat
   * Republican
@@ -25,10 +26,11 @@ This data contains the following fields:
 1. Voter Registration Number
 2. Election Type
 3. Election Date
-4. Binary indicator if the submitted ballot was an absentee ballot
-5. Binary indicator if the submitted ballot was a supplemental ballot
-6. Binary indicator if the submitted ballot was a provisional ballot
-7. Categorical indicator if the ballot was submitted for a primary election, and if so, the political party selected by the voter.
+4. County Number
+5. Binary indicator if the submitted ballot was an absentee ballot
+6. Binary indicator if the submitted ballot was a supplemental ballot
+7. Binary indicator if the submitted ballot was a provisional ballot
+8. Categorical indicator if the ballot was submitted for a primary election, and if so, the political party selected by the voter.
   * None _(If the election was not a primary or primary run-off)_
   * Democrat
   * Republican
@@ -36,4 +38,11 @@ This data contains the following fields:
  
 An individual ballot can be either an absentee ballot, supplemental ballot, or provisional ballot, but not more than one.
 
+### Election Type
+
+The _Election Type_ field is inconsistent from election to election and jurisdiction to juristiction. From what is observed in the data, a new election type is created for each agglomeration of different types of elections into a single election event.
+
+For example, all general elections that contain only general election ballots have a single election type code. However, if a single election event in a jurisdiction contained more than one type of ballot (e.g., a special election and a general election held on the same day), then a new `election_code` will be generated.
+
+I have collected all possible `election_type`s and manually assigned them to my own classification [on this repo](https://github.com/mikehikes/georgia_election_data/blob/devwork1/auxillary_files/election_type_mapping.csv).
 
