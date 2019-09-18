@@ -8,6 +8,12 @@ Code contained in the repo will be initially python3-based; however R or other l
 
 At the very least, this repository is designed as a template or toolkit for others to continue analysis on the source data. To this end, I will initially develop Jupyter Notebooks to conduct ETL of the data, and subsequent notebooks for analysis. Where sensible, Jupyter Notebooks that are script-like in nature will be converted to python scripts.  
 
+## Important Notes
+
+- __This project uses only publicly-provided and generally accessible data.__
+- __Data does not include the actual votes of voters - only a record that a voter has voted.__
+- __Data does not contain any personally-identifiable information.__
+
 ## Current Projects
 
 1. ETL Scripts to compile the voter data into a transaction-type databsae and a key-pair database, to indicate for each voter, their annual participation in elections. [Jupyter Notebook](https://https://github.com/mikehikes/georgia_election_data/tree/devwork1/etl)
