@@ -2,7 +2,7 @@
 
 ## About this Repository and Project History
 
-Given the amount of news, interest, and focus on elections in the State of Georgia over the past two election cycles, I thought it would be helpful to acquire publicly-available data from the Georgia Secretary of State's office and determine what types of independent analysis I could conduct on my own. (In full disclosure, I am a resident of the State of Georgia). 
+Given the amount of news, interest, and focus on elections in the State of Georgia over the past two election cycles, I thought it helpful to acquire publicly-available data from the Georgia Secretary of State's office and determine what types of independent analysis I could conduct on my own. (In full disclosure, I am a resident of the State of Georgia 🍑). 
 
 Code contained in the repo will be initially python3-based; however R or other languages may be used as needed. The code is engineered to operate on most mid- to high-powered laptops (in 2019, at least).
 
